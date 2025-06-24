@@ -1,0 +1,36 @@
+outputs:
+sample size: 5000 epochs: 10{
+    Loading data on cuda...
+Using 5000 tunes for training
+Vocab size: 91
+Epoch 1/10, Loss: 1.2244
+Validation Loss: 1.2446
+Epoch 2/10, Loss: 1.1102
+Validation Loss: 1.2559
+Epoch 3/10, Loss: 1.0878
+Validation Loss: 1.2644
+Epoch 4/10, Loss: 1.0765
+Validation Loss: 1.2734
+Epoch 5/10, Loss: 1.0694
+Validation Loss: 1.2740
+Epoch 6/10, Loss: 1.0644
+Validation Loss: 1.2808
+Epoch 7/10, Loss: 1.0606
+Validation Loss: 1.2839
+Epoch 8/10, Loss: 1.0575
+Validation Loss: 1.2900
+Epoch 9/10, Loss: 1.0549
+Validation Loss: 1.2943
+Epoch 10/10, Loss: 1.0530
+Validation Loss: 1.2933
+Model saved as music_rnn.pth
+Generated ABC notation with dynamic headers: X:1
+T:Generated Tune
+M:4/4
+L:1/16
+K:G
+ (3fga | b2ag a2(fg) | (ag)(ab).af (ba)gf | ed^ce (de)dB :|2 (dB)Bd (ce)ec | 
+ gfed c(eA)c | d2 cB AFEF | GB(A^G)(AG) FD | d2 cA a2 (ga) | DBBG (3(AcB) (cA) | BG G2 EcGB | 
+ Acec (ed)cB | A2 (fA) aA(a
+}
+
