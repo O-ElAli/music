@@ -34,3 +34,63 @@ K:G
  Acec (ed)cB | A2 (fA) aA(a
 }
 
+previous outputs{
+    
+X:1
+T:Generated Tune
+M:4/4
+L:1/4
+K:C
+ g2 g | fedc | B2 BB{G} gafd |{g} Ac (d{g}cBd{c}{B} Ac :: 
+ ^g3 gbgf dcBA |{B} gAdB!wedge!c!wedge!c!wedge!c | 
+ (FA) !wedge!d!wedge!d!wedge!d!wedge!c!wedge!e!wedge!d!wedge!c!wedge!B!wedge!c!wedge!c | 
+
+ X:1
+T:Generated Tune
+M:3/4
+L:1/4
+K:C
+[M:2/2][K:Emin] (3(GB) c d3 || f2 a g3 | f2 f a2 g | fed cBA | GAB d3 | 
+ =cdc BGA | B=c^d e2 ^c | B3 A2- | A2 D D>FE | Gde dcB | cAG FED | 
+ E2 A E2 F | GBG B>AG | FDD D2 :| D | 
+ 
+ DEG FDD | GBd gff 
+
+
+
+}
+
+10k samples and 10 epochs {
+    Loading data on cuda...
+Using 10000 tunes for training
+Vocab size: 92
+Epoch 1/10, Loss: 1.1904
+Validation Loss: 1.2041
+Epoch 2/10, Loss: 1.1125
+Validation Loss: 1.2013
+Epoch 3/10, Loss: 1.0990
+Validation Loss: 1.2010
+Epoch 4/10, Loss: 1.0924
+Validation Loss: 1.2010
+Epoch 5/10, Loss: 1.0882
+Validation Loss: 1.2038
+Epoch 6/10, Loss: 1.0853
+Validation Loss: 1.2064
+Epoch 7/10, Loss: 1.0832
+Validation Loss: 1.2053
+Early stopping triggered after 7 epochs.
+Model saved as music_rnn.pth
+Generated ABC notation with dynamic headers: X:1
+T:Generated Tune
+M:4/4
+L:1/16
+K:G
+ .e.B.g (B a) g.a.b.b | g3 d (ed)ba |{a} g2 Md>ug ABde | .f.d(fd)e2.d2.e :: ae agfe fedc | 
+ afdc egfd edcB | cdcd fedc | BBeB e2de | fdec dcBA | d/d/ddd c2 z z/ :: ec | 
+ B4 G2 F2 | E3 C B2 | c2 c2 c3 d | eddcBAGB | B3 A z4 | e2 ce ed c2 | d2 dd d3 e | d3 dddd | e2 dB A2 A2 | 
+ B2 d2 d2 c3 B | AABdBG d2 z (A/B/c :| d2) ef e3"^D.C." (dc)c | B=fcf agfe f^dcB | ABBc A4 z e | 
+ f=eff a3 f (3edc =BA |
+}
+
+
+
