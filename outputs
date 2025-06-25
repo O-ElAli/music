@@ -58,7 +58,69 @@ K:C
 
 
 
+50k samples and 20 epochs{
+    Loading data on cuda...
+Using 50000 tunes for training
+Vocab size: 95
+Epoch 1/20, Loss: 1.1400
+Validation Loss: 1.1254
+Epoch 2/20, Loss: 1.1043
+Validation Loss: 1.1183
+Epoch 3/20, Loss: 1.0973
+Validation Loss: 1.1120
+Epoch 4/20, Loss: 1.0936
+Validation Loss: 1.1099
+Epoch 5/20, Loss: 1.0912
+Validation Loss: 1.1093
+Epoch 6/20, Loss: 1.0895
+Validation Loss: 1.1077
+Epoch 7/20, Loss: 1.0882
+Validation Loss: 1.1065
+Epoch 8/20, Loss: 1.0871
+Validation Loss: 1.1061
+Epoch 9/20, Loss: 1.0862
+Validation Loss: 1.1039
+Epoch 10/20, Loss: 1.0855
+Validation Loss: 1.1034
+Epoch 11/20, Loss: 1.0848
+Validation Loss: 1.1032
+Epoch 12/20, Loss: 1.0842
+Validation Loss: 1.1033
+Epoch 13/20, Loss: 1.0836
+Validation Loss: 1.1017
+Epoch 14/20, Loss: 1.0832
+Validation Loss: 1.1024
+Epoch 15/20, Loss: 1.0828
+Validation Loss: 1.1016
+Epoch 16/20, Loss: 1.0824
+Validation Loss: 1.1022
+Epoch 17/20, Loss: 1.0820
+Validation Loss: 1.1025
+Epoch 18/20, Loss: 1.0816
+Validation Loss: 1.1023
+Epoch 19/20, Loss: 1.0814
+Validation Loss: 1.1014
+Epoch 20/20, Loss: 1.0811
+Validation Loss: 1.1015
+Training finished in: 9:04:01.428784
+Generated ABC notation with dynamic headers: X:1
+T:Generated Tune
+M:3/4
+L:1/16
+K:G
+ G | B>AB G>AG | A>GE c>Bc | d>cd d>ef | g>ag g>fe | f>ed c>Bc | d3 B2 G | c>AB c>eg | 
+ f2 d (gfg) | agf e2 c | TcAF (TTG2 G) |{f} d3 a2 d | cde f>ef | (g2 g{aba)} c2 B | cde TA2 F | 
+ Gce d>cd | (edc) (B>cdB) | (c2 d) A2 A | FAA (c3 | (dcd){ef} d2 (c | c)dA dcd | (e3 e3) || 
+ eee e2 f | e2 (c e)fe | (e2 e) cBB | (Bc)B A2 E | (FEF) E2 A | A2 E EAB | c2 A c2 B | 
+ c2 B A2 E | (F2 B) (AFB) | (EDE) B,2 D | B2 e (dc)(BA) | BFD E2 F | EdB cBA | 
+{c} B3- B(FG) | AFd (AFD) | F(MF/E/) [Dd]2 z || Tf3 (ABA) | (efg) aga | Te2 f d2 A | 
+ (d2 f B2)d2 | (c2 A) BcB | TA2 G{A} FEC | (FE)D D2 :| ud | (dcd) (DF)A | (d^cd e2fg) | (fe^d) (ef=g) | faf =b2 (g | 
+ f2) u[Bd])[e=c] ([dc-]2 [cA]) | d(AB cde | Ad^c d2 uf) | fed (_A (3^gfg) | (eg)a (afd) | 
+ (e=c'b) (afg) | (agf){e} dcB | ABA AF^G | (AF)E (F2 F | E6
+
 }
+
+
 
 10k samples and 10 epochs {
     Loading data on cuda...
@@ -90,6 +152,57 @@ K:G
  B4 G2 F2 | E3 C B2 | c2 c2 c3 d | eddcBAGB | B3 A z4 | e2 ce ed c2 | d2 dd d3 e | d3 dddd | e2 dB A2 A2 | 
  B2 d2 d2 c3 B | AABdBG d2 z (A/B/c :| d2) ef e3"^D.C." (dc)c | B=fcf agfe f^dcB | ABBc A4 z e | 
  f=eff a3 f (3edc =BA |
+}
+
+in progress outputs{
+    X:1
+T:Generated Tune
+M:3/4
+L:1/4
+K:G
+ c2 BA G3 D | E4 G3 A | G2 c4 C2 | E3 G A2 F2 | G4 z2 dc | B3 B B2 d2 | G4 c2 dB | 
+ A6 z2 | d3 c d3 g | c3 d e2 f2 | g4 d3 z | f3 e f3 e | (d2 d2-) d3 c | c2 c4 d2 | 
+ e3 f f3 e | c2 d2 d2 c2 | A2 G4 (A2 | B6) G3/2) A | (F2- F2) (A4 A2) |1 ^G4 A4 | (D6 F2) | E4 D2 z2 D4 A2 | 
+ d2 c2 B2 G4 (B2 A4 | d4) B A G4 G E2 | D8 z4 E2 A2 | G4 G2 [GA]4 z4 G4 | [BD]6 E2 G4 | 
+ G2 G2 A6 B2 G4 G2 G3 A | B8 A4 A4 | B6 A4 A6 GA B2 A2 G4 F4 G4 F4 G4 | B4 B12 c4 d8 | B8 |[M:2/2] A4 A4 B2 c4 A4 A2 d4 d8 :|2 A8 G8 | 
+[M:3/4] B8 B4 A8 F8 E8 | E8- ED E2- E8 | A8- A4- A4 G3 G |1 A2 E4 E2 E- E3 A3 z | 
+ G4- GE D2 D-D G2 G2- G4 | B8- B4 z2 A2 z2 G6 || AB- B3 B- B2 c4- (3BGB- B2- BA E2 E3- E3 B c4 A3- | 
+ d c3 z3 B-B{c} B4 A4 B4- B4 c4- B4- B4- B4 z4 c4 c4 | B2 c2 (c6 B2 A2) G4 g4 | 
+[M:3/4]{AcdB} c8{Ad} [BG]8 [BE]
+
+
+
+at 17 epochs{X:1
+T:Generated Tune
+M:6/8
+L:1/8
+K:D
+ d | ecA def | ede a2 g | ecA GFG | ABc def | gec gab | afd geg | fdc AFA | GBA G2 g/a/ |: 
+ gfd cAc | ecA f2 d | cAF FDF | Acf Td2 c | dfd cAF | DFA cAA | fdf Adf | dfa fdf | ece ece | 
+ g2g2 c'2c'2 | f2d fed | cfB c2f2 :: a2A gec | AcA a2A2 | a2 a fga | ece fee AAG | 
+ A>Bc"^C" G2f (fed) | ^cdf e/Tf/ e2 :: e | G2 (e/f/g/) a (e/f/g) c | f>ef gfd | 
+ ecc e/f/g z | a2 a e3 | GBc def | e3 c2 g/g/ | aga gag | a3 age | agg efg | a2 g e2 d | cde cdc | 
+ gde g2 d | ecg ged | efe d2 c | GAB cde | AGE EDE | C3 A,GA | EGG ABA |1 c2 A GED :|2 
+ GEG ABc |: c^de =g2 a | g2 e dcA | Ggf g^fg | ed^c dd^f | bag fed | g^fe de^f | ec'd' _b2 a | 
+ bge dBA | deg age |{e} def{a} gef | g/f/ge dge | dgg agd | gag agg | agb g2 a :| 
+ (g2 a) (gab) | (G2 B Ad)c | (BGA) (dc)B | (AGA) (GAB | T^c2)c g2{g} (a/4g/4f3/2)}
+
+ 
+}
+
+completed model{
+    X:1
+T:Generated Tune
+M:4/4
+L:1/8
+K:D
+ fAG FED BAB | ded dAF DEF | G3 AFA F2 d | AFD D2 C D2 :| Bd | e3 efe e3 cde | 
+"^13" f2 f fdf b3 f2 f | a2 f afd d^cd fed | e2 B dfe dcB ABd | f2 e fef A3 faf | B2 B AGF E3 e2 :|2 
+ aba afb a2 f aba | d'2 b f3 a6 |: g2 f ede b3 b2 b | f2 e f2 a f2 e d2 A | d2 A d3 f2 e d2 f a2 g f2 e e3 e2 f | f2 c f2 a a2 f f2 a g3 f3 f2 e e2 f e2 f e2 d c2 d e3 c3 A2 e c d c B3 c2 G E2 F F4 E3 C a e g8 c3 z2 d d2 e c A6 z2 A | 
+ e2 d e2 a c2 a e8 d e4 d e4 | g f3 B4 A4 E4 D4 E8 | D6 F2 | E3 E TF3 E G3 E A6 (E2 G2) F4 ^G4 E4 D2 D4 || B>B | A3 d d2 d6 | d4 dc/B/ c3 A A2 D4 E2 E6 E2 || e3 ^f !>!a3 A .^G3 .A .B4 G4 .A6 B2 | (A6 A2) A6 A6 z2 | 
+ d2 B4 (A3 B) B8 B4 A3 G F6 (FG) A6 z4 (b4 B4) | a2 g4 ^f6 g4 (e6 e2) e6 e6 e6 e2 z4 z2 z4 z2 z2 | z6 z6 d6 _e6 e4 f2 z4 z6 z2 fe d6 e4 e6 b4 f2 b2 e4 fe ^d2 e6 f4 e8
+
+ 
 }
 
 
